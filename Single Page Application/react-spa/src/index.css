@@ -1,0 +1,19 @@
+body{font-family:Arial;margin:0}
+.nav{
+  display:flex;
+  gap:1rem;
+  padding:1rem;
+  background:#2563eb;
+}
+.nav a{
+  color:#fff;
+  text-decoration:none;
+}
+.page{
+  padding:2rem;
+  animation:fade .4s ease;
+}
+@keyframes fade{
+  from{opacity:0}
+  to{opacity:1}
+}
